@@ -1,0 +1,33 @@
+.recipe-detail {
+    max-width: 800px;
+    margin: 0 auto;
+  
+    .back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: #333;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+  
+    ul, ol {
+      padding-left: 20px;
+    }
+  }
+  
+  
