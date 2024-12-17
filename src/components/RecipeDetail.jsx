@@ -1,6 +1,5 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-// import { useGetRecipesQuery } from '../features/recipesApi';
 import './RecipeDetail.scss';
 import { useGetRecipesQuery } from '../redux/recipesApi';
 
@@ -20,7 +19,7 @@ function RecipeDetail() {
       <Link to="/" className="back-link">← Back to Recipes</Link>
       <h1>{recipe.name}</h1>
       <img src={recipe.image} alt={recipe.name} />
-      <p>Country: {recipe.cuisine}</p>
+      <p>Cuisine: {recipe.cuisine}</p>
       <h2>Ingredients:</h2>
       <ul>
         {recipe.ingredients.map((ingredient, index) => (

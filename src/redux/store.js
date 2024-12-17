@@ -4,10 +4,10 @@ import recipesApi from './recipesApi';
 
 const store = configureStore({
   reducer: {
-    [recipesApi.reducerPath]: recipesApi.reducer, // Add the API slice reducer
+    [recipesApi.reducerPath]: recipesApi.reducer, 
   },
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(recipesApi.middleware), // Add the API slice middleware
+    getDefaultMiddleware().concat(recipesApi.middleware), 
 });
 
 export default store;
